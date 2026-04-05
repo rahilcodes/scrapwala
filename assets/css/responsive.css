@@ -110,9 +110,20 @@
     font-size: 12px;
   }
 
-  /* Trust grid photo min-height */
-  .trust-grid img {
-    min-height: 200px;
+  /* Trust grid photo styling and stacking */
+  .trust-grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-10);
+  }
+
+  .trust-visual {
+    order: -1; /* Move image to top on mobile */
+    min-height: 250px;
+    border-radius: var(--radius-xl);
+  }
+
+  .trust-item {
+    margin-bottom: var(--space-6);
   }
 
   /* Process photo text overlay — smaller padding on mobile */
@@ -206,6 +217,50 @@
   /* WA widget moved up when sticky CTA showing */
   .wa-widget {
     bottom: calc(env(safe-area-inset-bottom, 0px) + 88px);
+  }
+
+  /* Pulse Map / Live Activity */
+  .pulse-map-container {
+    grid-template-columns: 1fr;
+    gap: var(--space-10);
+    padding: var(--space-10) var(--gutter);
+    text-align: center;
+  }
+
+  .pulse-map-container > div:last-child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #map-toast {
+    left: 50% !important;
+    transform: translateX(-50%) translateY(0) !important;
+    top: 10px !important;
+    width: max-content;
+  }
+
+  .pulse-map-svg {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+  /* Before/After Slider */
+  .ba-container {
+    height: 400px;
+    margin: var(--space-10) 0;
+  }
+
+  .ba-overlay img {
+    height: 400px;
+  }
+
+  .ba-counter {
+    padding: 8px 20px;
+    font-size: var(--text-md);
+    bottom: var(--space-4);
+    width: 80%;
+    text-align: center;
   }
 
   /* Sticky CTA */

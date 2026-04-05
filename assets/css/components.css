@@ -490,7 +490,7 @@
 .ticker__belt {
   display: flex;
   gap: 0;
-  animation: ticker-scroll 35s linear infinite;
+  animation: ticker-scroll 23s linear infinite;
   white-space: nowrap;
   will-change: transform;
 }

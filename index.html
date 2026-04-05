@@ -81,10 +81,9 @@
 <div class="nav__mobile" id="nav-mobile">
 <a href="index.html">Home</a>
 <a href="services.html">Services</a>
+<a href="index.html#areas">Locations</a>
 <a href="about.html">About</a>
 <a href="contact.html">Contact</a>
-<a href="#how">How it works</a>
-<a href="#prices">Live prices</a>
 <a href="#booking" class="btn btn--primary btn--full">Book Free Pickup</a>
 </div>
 
@@ -497,8 +496,10 @@
       <div style="position:relative;">
         <div id="map-toast" style="position:absolute; top:20px; left:20px; background:var(--green-accent); color:var(--black); padding:10px 20px; border-radius:100px; font-weight:800; font-size:12px; opacity:0; transition:all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); z-index:10; pointer-events:none;">New pickup scheduled!</div>
         <svg class="pulse-map-svg" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
-          <path d="M150,50 L350,50 L450,150 L450,350 L350,450 L150,450 L50,350 L50,150 Z" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="2" /> <!-- Abstract HYD outline -->
-          <circle cx="250" cy="250" r="5" fill="var(--green-accent)" /> <!-- City Center -->
+          <!-- Stylized Hyderabad Boundary -->
+          <path d="M150,120 L220,100 L300,110 L380,150 L420,220 L400,320 L350,400 L280,430 L180,410 L100,350 L80,250 L110,180 Z" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="2" />
+          <path d="M150,120 L220,100 L300,110 L380,150 L420,220 L400,320 L350,400 L280,430 L180,410 L100,350 L80,250 L110,180 Z" fill="none" stroke="var(--green-accent)" stroke-width="1" opacity="0.1" />
+          <circle cx="250" cy="260" r="4" fill="var(--green-accent)" opacity="0.5" />
         </svg>
       </div>
       <div>
