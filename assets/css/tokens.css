@@ -1,0 +1,118 @@
+/* ==========================================================================
+   TOKENS.CSS — Design System Tokens
+   Scrapwala Hyderabad
+   ========================================================================== */
+
+:root {
+  /* ---- Color Palette ---- */
+  --black:          #0A0A08;
+  --black-soft:     #141412;
+  --black-card:     #1A1917;
+  --white:          #FAFAF7;
+  --white-dim:      rgba(250, 250, 247, 0.92);
+
+  --green:          #1A6B3C;
+  --green-mid:      #2D9B5A;
+  --green-light:    #E8F5EE;
+  --green-glow:     rgba(45, 155, 90, 0.15);
+  --green-border:   rgba(45, 155, 90, 0.25);
+  --green-accent:   #6BD99A;
+
+  --amber:          #D4860A;
+  --amber-light:    #FEF3DC;
+
+  --surface:        #F2F1EC;
+  --surface-dark:   #EEECEA;
+  --border:         #E0DED6;
+  --border-dark:    rgba(255, 255, 255, 0.08);
+
+  --muted:          #6B6B62;
+  --muted-light:    #9B9B92;
+
+  --star:           #F5C842;
+  --wa-green:       #25D366;
+  --wa-green-dark:  #1DA851;
+
+  /* ---- Typography ---- */
+  --font-display:   'Syne', sans-serif;
+  --font-body:      'DM Sans', sans-serif;
+
+  --text-xs:   11px;
+  --text-sm:   13px;
+  --text-base: 15px;
+  --text-md:   17px;
+  --text-lg:   20px;
+  --text-xl:   24px;
+  --text-2xl:  32px;
+  --text-3xl:  clamp(28px, 3.5vw, 42px);
+  --text-4xl:  clamp(32px, 4vw, 52px);
+  --text-hero: clamp(42px, 7vw, 88px);
+
+  --weight-light:   300;
+  --weight-regular: 400;
+  --weight-medium:  500;
+  --weight-semi:    600;
+  --weight-bold:    700;
+  --weight-black:   800;
+
+  --leading-tight:  1.0;
+  --leading-snug:   1.2;
+  --leading-normal: 1.5;
+  --leading-relaxed:1.7;
+
+  --tracking-tight: -2px;
+  --tracking-snug:  -1.5px;
+  --tracking-normal:-0.5px;
+  --tracking-wide:  0.5px;
+  --tracking-wider: 1.5px;
+  --tracking-widest:2px;
+
+  /* ---- Spacing ---- */
+  --space-1:  4px;
+  --space-2:  8px;
+  --space-3:  12px;
+  --space-4:  16px;
+  --space-5:  20px;
+  --space-6:  24px;
+  --space-8:  32px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --space-16: 64px;
+  --space-20: 80px;
+  --space-24: 96px;
+  --space-32: 128px;
+
+  /* ---- Radii ---- */
+  --radius-sm:  6px;
+  --radius-md:  10px;
+  --radius-lg:  16px;
+  --radius-xl:  20px;
+  --radius-2xl: 24px;
+  --radius-pill:100px;
+
+  /* ---- Shadows ---- */
+  --shadow-sm:  0 1px 3px rgba(0,0,0,0.08);
+  --shadow-md:  0 4px 16px rgba(0,0,0,0.08);
+  --shadow-lg:  0 8px 32px rgba(0,0,0,0.12);
+  --shadow-wa:  0 4px 20px rgba(37, 211, 102, 0.4);
+
+  /* ---- Transitions ---- */
+  --dur-fast:   0.15s;
+  --dur-base:   0.25s;
+  --dur-slow:   0.4s;
+  --ease-out:   cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in-out:cubic-bezier(0.45, 0, 0.55, 1);
+
+  /* ---- Z-index Layer ---- */
+  --z-base:   1;
+  --z-card:   10;
+  --z-sticky: 50;
+  --z-nav:    100;
+  --z-float:  200;
+  --z-modal:  300;
+
+  /* ---- Layout ---- */
+  --max-width: 1200px;
+  --gutter:    5vw;
+  --section-y: 100px;
+}

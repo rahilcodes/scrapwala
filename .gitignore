@@ -1,0 +1,5 @@
+node_modules/
+.gemini/
+tmp/
+*.log
+.DS_Store

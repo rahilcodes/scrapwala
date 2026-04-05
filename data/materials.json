@@ -1,0 +1,101 @@
+[
+  {
+    "id": "iron-steel",
+    "name": "Iron / Steel",
+    "rate": 25,
+    "min": 24,
+    "max": 28,
+    "unit": "kg",
+    "trend": "up",
+    "trendLabel": "Best Rate",
+    "serviceSlug": "iron-scrap-buyers-hyderabad"
+  },
+  {
+    "id": "copper",
+    "name": "Copper",
+    "rate": 450,
+    "min": 420,
+    "max": 480,
+    "unit": "kg",
+    "trend": "up",
+    "trendLabel": "High Demand",
+    "serviceSlug": "copper-scrap-buyers-hyderabad"
+  },
+  {
+    "id": "aluminium",
+    "name": "Aluminium",
+    "rate": 102,
+    "min": 95,
+    "max": 110,
+    "unit": "kg",
+    "trend": "up",
+    "trendLabel": "Trending",
+    "serviceSlug": "aluminium-scrap-buyers-hyderabad"
+  },
+  {
+    "id": "brass",
+    "name": "Brass",
+    "rate": 300,
+    "min": 280,
+    "max": 320,
+    "unit": "kg",
+    "trend": "stable",
+    "trendLabel": "Stable",
+    "serviceSlug": "brass-scrap-buyers-hyderabad"
+  },
+  {
+    "id": "newspaper",
+    "name": "Newspaper / Books",
+    "rate": 10,
+    "min": 8,
+    "max": 12,
+    "unit": "kg",
+    "trend": "up",
+    "trendLabel": "Steady",
+    "serviceSlug": "paper-scrap-buyers-hyderabad"
+  },
+  {
+    "id": "cardboard",
+    "name": "Cardboard",
+    "rate": 6,
+    "min": 5,
+    "max": 8,
+    "unit": "kg",
+    "trend": "stable",
+    "trendLabel": "",
+    "serviceSlug": "paper-scrap-buyers-hyderabad"
+  },
+  {
+    "id": "plastic-hdpe",
+    "name": "Plastic (HDPE)",
+    "rate": 15,
+    "min": 12,
+    "max": 18,
+    "unit": "kg",
+    "trend": "stable",
+    "trendLabel": "",
+    "serviceSlug": null
+  },
+  {
+    "id": "ewaste",
+    "name": "E-Waste / Electronics",
+    "rate": 120,
+    "min": 40,
+    "max": 200,
+    "unit": "piece",
+    "trend": "up",
+    "trendLabel": "Certified",
+    "serviceSlug": "ewaste-recycling-hyderabad"
+  },
+  {
+    "id": "batteries",
+    "name": "Batteries",
+    "rate": 45,
+    "min": 30,
+    "max": 60,
+    "unit": "piece",
+    "trend": "stable",
+    "trendLabel": "",
+    "serviceSlug": null
+  }
+]

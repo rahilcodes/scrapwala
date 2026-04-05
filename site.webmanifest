@@ -1,0 +1,10 @@
+{
+  "name": "Scrapwala Hyderabad",
+  "short_name": "Scrapwala",
+  "description": "Hyderabad's most trusted scrap collection service. Book a free doorstep pickup for your old iron, copper, aluminium, and e-waste.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#11100e",
+  "theme_color": "#2d9b5a",
+  "orientation": "portrait"
+}
